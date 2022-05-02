@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AppGSBAndroid</string>
+    <string name="menuTextViewTitre">Application de gestion des echantillons de complements alimentaires</string>
+    <string name="menuButtonAjoutEchantillon">Ajouter un nouvel echantillon</string>
+    <string name="menuButtonListeEchantillons">Liste des echantillons</string>
+    <string name="menuButtonListeReaprovisionnement">Liste Articles à réaprovisionner</string>
+    <string name="menuButtonMajEchantillons">Maj d\'un echantillon</string>
+    <string name="ajoutTextViewEchantillon">Saisie d\' un échantillon :</string>
+    <string name="ajoutEditTextCode">Saisir ici un code</string>
+    <string name="ajoutEditTextLib">Saisir ici un libelle</string>
+    <string name="ajoutEditTextStock">Saisir ici une quantité</string>
+
+    <string name="ajoutButtonQuitter">Quitter</string>
+    <string name="ajoutButtonAjouter">Ajouter</string>
+    <string name="ajoutTextViewMessage">Message</string>
+    <string name="majTextViewTitre">Saisie d\'un échantillon :</string>
+    <string name="majEditTextCode">Saisir ici un code</string>
+    <string name="majEditTextQte">Saisir ici une quantité</string>
+    <string name="majButtonAjouter">Ajouter</string>
+    <string name="majButtonSupprimer">Supprimer</string>
+    <string name="majButtonQuitterListe">Quitter</string>
+    <string name="majTextViewMessage">message</string>
+    <string name="textViewTitre">Liste des échantillons :</string>
+    <string name="buttonQuitterListe">Quitter</string>
+    <string name="textViewTitreR">Liste Articles à réapprovisionner :</string>
+
+    <string name="echantillons_id">Code</string>
+    <string name="echantillons_lib">Libelle</string>
+    <string name="echantillons_quantity">Quantité</string>
+
+</resources>

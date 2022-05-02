@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="tv_echantillon_id" type="id" />
+    <item name="tv_echantillon_libelle" type="id" />
+    <item name="tv_echantillon_quantité" type="id" />
+</resources>

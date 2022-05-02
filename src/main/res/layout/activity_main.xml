@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center"
+    >
+
+    <TextView
+        android:id="@+id/menuTextViewTitre"
+        android:layout_width="320dp"
+        android:layout_height="78dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/menuTextViewTitre"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/menuButtonAjoutEchantillon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/menuButtonListeEchantillons"
+        android:layout_width="262dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/menuButtonListeEchantillons"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/menuButtonListeReaprovisionnement"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuButtonAjoutEchantillon"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <Button
+        android:id="@+id/menuButtonListeReaprovisionnement"
+        android:layout_width="262dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/menuButtonListeReaprovisionnement"
+        android:textColor="@android:color/black"
+        android:backgroundTint="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/menuButtonMajEchantillons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuButtonListeEchantillons"
+        app:layout_constraintVertical_bias="0.67" />
+
+    <Button
+        android:id="@+id/menuButtonAjoutEchantillon"
+        android:layout_width="262dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="44dp"
+        android:text="@string/menuButtonAjoutEchantillon"
+        android:backgroundTint="@color/white"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/menuButtonListeEchantillons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuTextViewTitre"
+        app:layout_constraintVertical_bias="0.247"
+/>
+
+    <Button
+        android:id="@+id/menuButtonMajEchantillons"
+        android:layout_width="262dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="2dp"
+        android:backgroundTint="@color/white"
+        android:text="@string/menuButtonMajEchantillons"
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuButtonListeEchantillons"
+        app:layout_constraintVertical_bias="0.667" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
